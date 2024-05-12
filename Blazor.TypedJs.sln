@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34825.169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.TypedJs", "Blazor.TypedJs\Blazor.TypedJs.csproj", "{2BCB53FE-BB6B-4B0B-BEED-9CEA6D1FBC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.TypedJs.Web8", "Blazor.TypedJs.Web8\Blazor.TypedJs.Web8.csproj", "{997A67DA-D812-4FAA-AE21-689D83CB63E3}"
+EndProject
+Global
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C2B2E2A-2786-49E3-89C6-2A3029E21CE6}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BCB53FE-BB6B-4B0B-BEED-9CEA6D1FBC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCB53FE-BB6B-4B0B-BEED-9CEA6D1FBC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCB53FE-BB6B-4B0B-BEED-9CEA6D1FBC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCB53FE-BB6B-4B0B-BEED-9CEA6D1FBC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997A67DA-D812-4FAA-AE21-689D83CB63E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997A67DA-D812-4FAA-AE21-689D83CB63E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997A67DA-D812-4FAA-AE21-689D83CB63E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997A67DA-D812-4FAA-AE21-689D83CB63E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

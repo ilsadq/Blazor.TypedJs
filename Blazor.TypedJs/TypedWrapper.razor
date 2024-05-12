@@ -1,0 +1,29 @@
+﻿@implements IAsyncDisposable
+
+<div id="@Id" class="@CssClass"></div>
+
+@code {
+
+    private string Id => $"E{GetHashCode()}";
+
+    [Parameter, EditorRequired] public required int TypeSpeed { get; set; }
+    [Parameter, EditorRequired] public required string[] Strings { get; set; }
+    [Parameter] public string? CssClass { get; set; }
+
+    [Inject] public required TypedJsProvider TypedJs { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await TypedJs.Init(Id, Strings, TypeSpeed);
+        }
+        await base.OnAfterRenderAsync(firstRender);
+    }
+
+    public async ValueTask DisposeAsync()
+    {   
+        await TypedJs.Remove(Id);
+    }
+
+}

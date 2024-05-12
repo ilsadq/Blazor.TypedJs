@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Blazor.TypedJs</Title>
+    <Description>C# wrapper for TypedJs lib</Description>
+    <PackageProjectUrl>https://github.com/ilsadq/Blazor.TypedJs</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ilsadq/Blazor.TypedJs</RepositoryUrl>
+    <PackageTags>Blazor,Typed,TypedJs</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Blazor.FloatingUI\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.4" />
+  </ItemGroup>
+
+</Project>

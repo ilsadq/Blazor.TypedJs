@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -11,6 +11,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/ilsadq/Blazor.TypedJs</RepositoryUrl>
     <PackageTags>Blazor,Typed,TypedJs</PackageTags>
+    <Authors>adequate</Authors>
   </PropertyGroup>
 
   <ItemGroup>
